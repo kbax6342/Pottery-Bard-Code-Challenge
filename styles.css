@@ -1,0 +1,166 @@
+html{
+    font-family: sans-serif;
+ 
+}
+
+body{
+    margin: 0;
+    background-color: white;
+   
+}
+
+
+/********************
+Navigation
+*********************/
+
+#nav-container ul li {
+    
+    list-style: none;
+    display: inline-block;
+    
+}
+
+#nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 5px solid navy;
+    justify-content: flex-end;
+    
+}
+
+#logo{
+    margin-right: 20em;
+}
+
+.nav-item1 a{
+    margin-right: 5px;
+    font-size: xx-large;
+    color:blue;
+    border-bottom:  2px solid red;
+    text-decoration: none;
+}
+
+.nav-item2 a{
+    margin-right: 5px;
+    font-size: xx-large;
+    color: #FDEE00;
+    border-bottom:  2px solid red;
+    text-decoration: none;
+}
+
+.nav-item3 a{
+   margin-right: 5px;
+    font-size: xx-large;
+    color: red;
+    border-bottom:  2px solid blue;
+    text-decoration: none; 
+}
+
+.nav-item4 a{
+   margin-right: 5px;
+    font-size: xx-large;
+    color: blue;
+    border-bottom:  2px solid #FDEE00;
+    text-decoration: none; 
+}
+
+/********************
+Main Content
+*********************/
+
+#main-content{
+    background: url(images/child-photo2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    box-shadow: 0 10px 50px -15px blue;
+
+}
+
+#child-photo{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 5px dashed red;
+    margin-left: 3em;
+    background-color: blue;
+    box-shadow: 
+        flex-grow:2 0 0;
+    
+}
+
+#sweepstake-information{
+    
+    margin-left: 5em;
+    padding: 50px;
+    margin-right: 5em;
+    flex-grow: 1 0 0;
+    
+}
+
+#title{
+    font-weight: 525;
+    font-family: serif;
+    color: blue;
+    margin:0px;
+    font-size: 300%;
+}
+#title-2{
+    font-weight: 550;
+    font-family: serif;
+    color:red;
+    margin:0px;
+    font-size: 300%;
+    
+}
+
+#title-3{
+    font-weight: 550;
+    font-family: serif;
+    color: #FDEE00;
+    margin: 0px;
+    font-size: 300%;
+}
+
+.main-text{
+    color:dimgrey;
+    font-weight:700;
+}
+
+.main-heading{
+    color:red;
+    font-weight:700;
+    margin-bottom: 0px;
+}
+
+#input-label{
+    font-size: small;
+}
+
+#input-box{
+    width: 30em;
+}
+
+
+
+
+
+/********************
+        Footer
+*********************/
+
+footer ul li {
+    
+    list-style: none;
+    display: inline-block;
+    
+}
+
+#footer-section{
+    text-align: center;
+}
+
+.footer-subcap{
+    font-size: small;
+    color:grey;
+}
